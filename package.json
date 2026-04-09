@@ -1,13 +1,23 @@
 {
-  "name": "kalpnathone",
+  "$schema": "https://json.schemastore.org/package",
+  "name": "skystack",
   "version": "1.0.0",
-  "description": "A full-stack event management platform built with React, Node.js, Express, and MongoDB. Users can browse events, book tickets, and organizers can create and manage events.",
+  "description": "",
+  "license": "ISC",
+  "author": "Prakhar gupta",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14"
+  }
 }
